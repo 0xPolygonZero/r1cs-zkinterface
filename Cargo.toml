@@ -1,0 +1,15 @@
+[package]
+name = "r1cs-zkinterface"
+description = "zkinterface backend for the r1cs crate"
+version = "0.1.0"
+authors = ["Daniel Lubarov <daniel@mirprotocol.org>", "Brendan Farmer <brendan@mirprotocol.org>"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["R1CS", "cryptography", "SNARK"]
+categories = ["cryptography", "no-std"]
+edition = "2018"
+
+[dependencies]
+num = { version = "0.2.0", features = ["rand"] }
+r1cs = "0.4.1"
+zkinterface = "1.0.6"
