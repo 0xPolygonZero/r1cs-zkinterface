@@ -6,7 +6,7 @@ authors = ["Daniel Lubarov <daniel@mirprotocol.org>", "Brendan Farmer <brendan@m
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 keywords = ["R1CS", "cryptography", "SNARK"]
-categories = ["cryptography", "no-std"]
+categories = ["cryptography"]
 edition = "2018"
 
 [dependencies]
