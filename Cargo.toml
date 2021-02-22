@@ -12,6 +12,6 @@ categories = ["cryptography"]
 edition = "2018"
 
 [dependencies]
-num = { version = "0.2.0", features = ["rand"] }
-r1cs = "0.4.7"
-zkinterface = "1.0.6"
+num = { version = "=0.2.0", features = ["rand"] }
+r1cs = "=0.4.7"
+zkinterface = "=1.0.6"
